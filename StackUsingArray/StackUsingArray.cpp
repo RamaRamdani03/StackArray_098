@@ -86,3 +86,11 @@ int main() {
 			obj.display();
 			break;
 		case '4':
+			return 0;
+		default:
+			cout << "\nInvalid choice." << endl;
+			break;
+		}
+		}
+	}
+}
