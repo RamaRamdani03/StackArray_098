@@ -69,3 +69,9 @@ int main() {
 		cout << "\nEnter your choice : ";
 		char ch;
 		cin >> ch;
+		switch (ch) {
+		case '1': {
+
+			obj.push();
+			break;
+		}
