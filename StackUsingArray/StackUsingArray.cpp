@@ -56,3 +56,16 @@ public:
 		}
 	}
 };
+
+int main() {
+	StackArray obj;
+	while (true) {
+		cout << endl;
+		cout << "\n**Stack Menu**" << endl;
+		cout << "1. Push \n" << endl;
+		cout << "2. Pop \n" << endl;
+		cout << "3. Display \n" << endl;
+		cout << "4. Exit \n" << endl;
+		cout << "\nEnter your choice : ";
+		char ch;
+		cin >> ch;
